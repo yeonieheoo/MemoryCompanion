@@ -1,7 +1,7 @@
 import os
 import openai
 
-openai.api_key  = "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"
+openai.api_key  = "MY OPENAI API"
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
     messages = [{"role": "user", "content": prompt}]
@@ -70,7 +70,6 @@ def chat():
 # start the chatbot
 print("ChatBot: Hi, Margaret! How are you?")
 chat()
-
 
 
 
