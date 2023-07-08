@@ -1,7 +1,8 @@
 import os
 import openai
 
-openai.api_key  = "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"
+# don't forget to remove the API key before pushing to github! It would be lost. 
+openai.api_key  = "MY OPENAI API"
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
     messages = [{"role": "user", "content": prompt}]
